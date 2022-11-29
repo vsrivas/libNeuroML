@@ -1,11 +1,10 @@
 r"""
 Prototype for object model backend for the libNeuroML project
 """
-
+from __future__ import print_function  # type: ignore
 
 import numpy as np
 import neuroml
-from __future__ import print_function  # type: ignore
 
 
 neuro_lex_ids = {
